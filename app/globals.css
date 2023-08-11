@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-gradient{
+    @apply bg-gradient-to-r from-left-blue to-right-blue bg-clip-text text-transparent
+}
